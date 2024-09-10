@@ -498,3 +498,33 @@ Why is the Django model called an ORM?
 Django's model is called an ORM(Object-Relational Mapping) because it helps us work with databases using normal Python code instead of complicated database language such as SQL. It lets us treat database tables like regular Python objects, so we can easily add, update, or retrieve data without needing to know how to write database commands. It makes database work much easier for developers.
 
 source: https://www.doprax.com/tutorial/django-tutorial-for-beginners-part-6/
+
+
+<p>{{ product1name }}<p>
+<h5>price: </h5>
+<p>{{ product1price }}<p>
+<h5>description: </h5>
+<p>{{ product1desc }}<p>
+
+<p>{{ product2name }}<p>
+<h5>price: </h5>
+<p>{{ product2price }}<p>
+<h5>description: </h5>
+<p>{{ product2desc }}<p>
+
+<p>{{ product3name }}<p>
+<h5>price: </h5>
+<p>{{ product3price }}<p>
+<h5>description: </h5>
+<p>{{ product3desc }}<p>
+
+
+        'product1name': 'Cucumber juice'
+        'product1price': 'Rp 5000,00'
+        'product1desc': 'Basic choice for basic people'
+        'product2name': 'Lemon juice'
+        'product2price': 'Rp 6000,00'
+        'product2desc': 'Anti-basic drink'
+        'product3name': 'Water'
+        'product3price': 'Rp 1000,00'
+        'product3desc': 'Literally water'
