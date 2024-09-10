@@ -1,14 +1,13 @@
 Create a README.md that contains a link to the PWS application that has been deployed, as well as answers to the following
 =
 
-link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop3.pbp.cs.ui.ac.id/ 
+link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop4.pbp.cs.ui.ac.id/ 
 
 Deployment credential:
 
 Username: ferdinand.bonfilio
 
-Password: 7JXF1pfW50QGYbzwQhTK6lBc04pVu3Qq
-
+Password: 7zMwsVmg3tr-aDRmGPEWtKxQsnRkl4l7
 
 Explain how you implemented the checklist above step-by-step (not just following the tutorial).
 =
@@ -500,31 +499,4 @@ Django's model is called an ORM(Object-Relational Mapping) because it helps us w
 source: https://www.doprax.com/tutorial/django-tutorial-for-beginners-part-6/
 
 
-<p>{{ product1name }}<p>
-<h5>price: </h5>
-<p>{{ product1price }}<p>
-<h5>description: </h5>
-<p>{{ product1desc }}<p>
 
-<p>{{ product2name }}<p>
-<h5>price: </h5>
-<p>{{ product2price }}<p>
-<h5>description: </h5>
-<p>{{ product2desc }}<p>
-
-<p>{{ product3name }}<p>
-<h5>price: </h5>
-<p>{{ product3price }}<p>
-<h5>description: </h5>
-<p>{{ product3desc }}<p>
-
-
-        'product1name': 'Cucumber juice'
-        'product1price': 'Rp 5000,00'
-        'product1desc': 'Basic choice for basic people'
-        'product2name': 'Lemon juice'
-        'product2price': 'Rp 6000,00'
-        'product2desc': 'Anti-basic drink'
-        'product3name': 'Water'
-        'product3price': 'Rp 1000,00'
-        'product3desc': 'Literally water'
