@@ -1,13 +1,13 @@
 Create a README.md that contains a link to the PWS application that has been deployed, as well as answers to the following
 =
 
-link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop2.pbp.cs.ui.ac.id/ 
+link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop3.pbp.cs.ui.ac.id/ 
 
 Deployment credential:
 
 Username: ferdinand.bonfilio
 
-Password: SBCxtoeWpwQP3jAhk87KQHSlk02PuURH
+Password: 7JXF1pfW50QGYbzwQhTK6lBc04pVu3Qq
 
 
 Explain how you implemented the checklist above step-by-step (not just following the tutorial).
