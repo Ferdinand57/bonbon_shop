@@ -431,15 +431,15 @@ inside website server:
 
 Client request: Imagine you are visiting a website. When you type a URL (like http://ferdinand-bonfilio-bonbonshop3.pbp.cs.ui.ac.id) and press enter, what you are doing is you are making a request to the website's server
 
-a. urls.py: The first stop for your client request is the urls.py file, this file acts like a guide or a map that tells the server "When a user visits this URL, send them to the appropriate part of the brain to be processed" it matches the URL to a function in views.py
+    a. urls.py: The first stop for your client request is the urls.py file, this file acts like a guide or a map that tells the server "When a user visits this URL, send them to the appropriate part of the brain to be processed" it matches the URL to a function in views.py
 
-b. views.py: Think of views.py as the brain behind the scenes, when the client request reaches this part, it figures out what needs to be done, it could be as simple as showing a page or it could involve doing some work like pulling information from a database or performing calculations
+    b. views.py: Think of views.py as the brain behind the scenes, when the client request reaches this part, it figures out what needs to be done, it could be as simple as showing a page or it could involve doing some work like pulling information from a database or performing calculations
 
-c. models.py: If the brain (views.py) needs to talk to the website's memory (the database), it uses models.py. This file defines the structure of the data the website uses (like class in python), so if you’re looking at a list of products or blog posts, models.py helps fetch that information from the database
+    c. models.py: If the brain (views.py) needs to talk to the website's memory (the database), it uses models.py. This file defines the structure of the data the website uses (like class in python), so if you’re looking at a list of products or blog posts, models.py helps fetch that information from the database
 
-d. HTML File: Once the brain (views.py) has done its work, it needs to send a response back to you. This response is usually a webpage written in HTML, which is a language used to create the structure of websites. The HTML file organizes the information into something you can see, like text, buttons, and images
+    d. HTML File: Once the brain (views.py) has done its work, it needs to send a response back to you. This response is usually a webpage written in HTML, which is a language used to create the structure of websites. The HTML file organizes the information into something you can see, like text, buttons, and images
 
-e. HTML Response: Finally, the server sends this webpage back to your browser, and you see it displayed on your screen
+    e. HTML Response: Finally, the server sends this webpage back to your browser, and you see it displayed on your screen
 
 It's like buying a sandwich in a restaurant: the server (urls.py) listen to the request and deliver it to the appropriate sandwich department, the chef (views.py) review the order and begin to make the sandwich, the chef retrieves the ingredients from the database (in this analogy the models.py), and then the HTML brings you the sandwich
 
