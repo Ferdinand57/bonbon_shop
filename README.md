@@ -443,8 +443,7 @@ Client request: Imagine you are visiting a website. When you type a URL (like ht
 4. HTML File: 
     Once the brain (views.py) has done its work, it needs to send a response back to you. This response is usually a webpage written in HTML, which is a language used to create the structure of websites. The HTML file organizes the information into something you can see, like text, buttons, and images
 
-5. HTML Response: 
-    Finally, the server sends this webpage back to your browser, and you see it displayed on your screen
+HTML Response: Finally, the server sends this webpage back to your browser, and you see it displayed on your screen
 
 It's like buying a sandwich in a restaurant: 
     the server (urls.py) listen to the request and deliver it to the appropriate sandwich department, the chef (views.py) review the order and begin to make the sandwich, the chef retrieves the ingredients from the database (in this analogy the models.py), and then the HTML brings you the sandwich
