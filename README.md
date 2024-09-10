@@ -451,7 +451,13 @@ Using this, git allows multiple developers to work on the same project simultane
 In your opinion, out of all the frameworks available, why is Django used as the starting point for learning software development?
 =
 
+From external sources and my own experience, i think django is used as the starting point because of how easy it is to learn and how versatile it is. Because django is open source and have been around since 2003, there is so many improvement made to the framework, and adding to that django also has relatively big community that makes a lot of tutorial and learning material, adding to that add, django also use python who we (and many beginner software developer) have learned before, making it easier to be learned and used, which is why i think we used django.
+
+source: https://codeinstitute.net/global/blog/what-is-django/
 
 Why is the Django model called an ORM?
 =
+
 Django's model is called an ORM(Object-Relational Mapping) because it helps us work with databases using normal Python code instead of complicated database language such as SQL. It lets us treat database tables like regular Python objects, so we can easily add, update, or retrieve data without needing to know how to write database commands. It makes database work much easier for developers.
+
+source: https://www.doprax.com/tutorial/django-tutorial-for-beginners-part-6/
