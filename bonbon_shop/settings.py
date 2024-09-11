@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1","ferdinand-bonfilio-bonbonshop5.pbp.cs.ui.ac.id"]
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
