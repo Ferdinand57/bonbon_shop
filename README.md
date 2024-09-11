@@ -235,9 +235,9 @@ Perform deployment to PWS for the application that has been created so that it c
 1. go here https://pbp.cs.ui.ac.id
 2. login
 3. create new project in this case bonbonshop
-4. save the deployment credential and add https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop2 to ALLOWED_HOSTS on project directory settings.py
+4. save the deployment credential and add https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5 to ALLOWED_HOSTS on project directory settings.py
 ```
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop2"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5"]
 ```
 5. if all done correctly our terminal should looks the same all this time, that is: (env) C:\Users\ferdi\OneDrive\Desktop\bonbon_shop>
 6. add a .gitignore file on our root directory (the same directory as main folder, project folder, manage.py) filled with this
