@@ -1,13 +1,23 @@
 Create a README.md that contains a link to the PWS application that has been deployed, as well as answers to the following
 =
 
-link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop4.pbp.cs.ui.ac.id/ 
+link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop5.pbp.cs.ui.ac.id/ 
 
 Deployment credential:
 
 Username: ferdinand.bonfilio
 
-Password: 7zMwsVmg3tr-aDRmGPEWtKxQsnRkl4l7
+Password: GpAIxdCusyGuU_sxxyzg_eU25F9gnUos
+
+Project Command
+
+You will need to use this command to deploy your code. If you have done this, in the future you will need to just use the third line only.
+
+git remote add pws http://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5
+
+git branch -M master
+
+git push pws master
 
 Explain how you implemented the checklist above step-by-step (not just following the tutorial).
 =
