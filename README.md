@@ -7,7 +7,7 @@ Deployment credential:
 
 Username: ferdinand.bonfilio
 
-Password: GpAIxdCusyGuU_sxxyzg_eU25F9gnUos
+Password: _FqH4jL5stYovuQj4dzENwtX1EoQjyr4
 
 Project Command
 
