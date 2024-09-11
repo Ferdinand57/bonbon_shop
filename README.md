@@ -1,7 +1,7 @@
 Create a README.md that contains a link to the PWS application that has been deployed, as well as answers to the following
 =
 
-link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop5.pbp.cs.ui.ac.id/ 
+link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop6.pbp.cs.ui.ac.id/ 
 
 Deployment credential:
 
@@ -13,7 +13,7 @@ Project Command
 
 You will need to use this command to deploy your code. If you have done this, in the future you will need to just use the third line only.
 
-git remote add pws http://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5
+git remote add pws http://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop6
 
 git branch -M master
 
@@ -235,9 +235,9 @@ Perform deployment to PWS for the application that has been created so that it c
 1. go here https://pbp.cs.ui.ac.id
 2. login
 3. create new project in this case bonbonshop
-4. save the deployment credential and add https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5 to ALLOWED_HOSTS on project directory settings.py
+4. save the deployment credential and add https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop6 to ALLOWED_HOSTS on project directory settings.py
 ```
-ALLOWED_HOSTS = ["localhost", "127.0.0.1","https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop5"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1","https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop6"]
 ```
 5. if all done correctly our terminal should looks the same all this time, that is: (env) C:\Users\ferdi\OneDrive\Desktop\bonbon_shop>
 6. add a .gitignore file on our root directory (the same directory as main folder, project folder, manage.py) filled with this
@@ -423,7 +423,7 @@ GitHub.sublime-settings
 
 9. run the following command on cmd
 ```
->git remote add pws https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop2
+>git remote add pws https://pbp.cs.ui.ac.id/ferdinand.bonfilio/bonbonshop6
 ```
 10. run the following command on cmd
 ```
