@@ -1,7 +1,7 @@
 Create a README.md that contains a link to the PWS application that has been deployed, as well as answers to the following
 =
 
-link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop5.pbp.cs.ui.ac.id/ 
+link to the PWS application that has been deployed: http://ferdinand-bonfilio-bonbonshop.pbp.cs.ui.ac.id/ 
 
 Deployment credential:
 
