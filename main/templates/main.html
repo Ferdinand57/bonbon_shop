@@ -1,29 +1,44 @@
-<h1>Bonbon's Shop</h1> <!-- Change according to your project name -->
+{% extends 'base.html' %}
+{% block content %}
+<h1>Bonbon's Shop</h1>
 
 <h5>NPM: </h5>
 <p>{{ npm }}<p>
-<h5>Name: </h5>
-<p>{{ name }}<p>
-<h5>Class: </h5>
-<p>{{ class }}<p>
 
-<h1>Our available product</h1>
-<h3>1. </h3>
-<p>{{ product1name }}<p>
-<h5>price: </h5>
-<p>{{ product1price }}<p>
-<h5>description: </h5>
-<p>{{ product1desc }}<p>
-<h3>2. </h3>
-<p>{{ product2name }}<p>
-<h5>price: </h5>
-<p>{{ product2price }}<p>
-<h5>description: </h5>
-<p>{{ product2desc }}<p>
-<h3>3. </h3>
-<p>{{ product3name }}<p>
-<h5>price: </h5>
-<p>{{ product3price }}<p>
-<h5>description: </h5>
-<p>{{ product3desc }}<p>
+<h5>Name:</h5>
+<p>{{ name }}</p>
 
+<h5>Class:</h5>
+<p>{{ class }}</p>
+
+{% if not product_entries %}
+<p>There are no product in Bonbon's Shop.</p>
+{% else %}
+<table>
+  <tr>
+    <th>Product Name</th>
+    <th>Time</th>
+    <th>Description</th>
+    <th>Price</th>
+  </tr>
+
+  {% comment %} This is how to display product data
+  {% endcomment %} 
+  {% for product_entry in product_entries %}
+  <tr>
+    <td>{{product_entry.name}}</td>
+    <td>{{product_entry.time}}</td>
+    <td>{{product_entry.description}}</td>
+    <td>{{product_entry.price}}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+<br />
+
+<a href="{% url 'main:create_product_entry' %}">
+  <button>Add New product Entry</button>
+</a>
+
+{% endblock content %}
