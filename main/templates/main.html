@@ -40,5 +40,8 @@
 <a href="{% url 'main:create_product_entry' %}">
   <button>Add New product Entry</button>
 </a>
-
+<a href="{% url 'main:logout' %}">
+  <button>Logout</button>
+</a>
+<h5>Last login session: {{ last_login }}</h5>
 {% endblock content %}
