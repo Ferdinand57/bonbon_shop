@@ -167,7 +167,7 @@ Create a navigation bar (navbar) for the features in the application that is res
 
 Create navbar.html:
 ```
-<nav class="bg-indigo-600 shadow-lg fixed top-0 left-0 z-40 w-screen">
+<nav class="bg-orange-600 shadow-lg fixed top-0 left-0 z-40 w-screen">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <div class="flex items-center">
@@ -341,16 +341,16 @@ Create a global.css file in static/css and linked it in base.html:
       <div class="rounded-md shadow-sm -space-y-px">
         <div>
           <label for="username" class="sr-only">Username</label>
-          <input id="username" name="username" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Username">
+          <input id="username" name="username" type="text" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 focus:z-10 sm:text-sm" placeholder="Username">
         </div>
         <div>
           <label for="password" class="sr-only">Password</label>
-          <input id="password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password">
+          <input id="password" name="password" type="password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 focus:z-10 sm:text-sm" placeholder="Password">
         </div>
       </div>
 
       <div>
-        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
           Sign in
         </button>
       </div>
@@ -379,7 +379,7 @@ Create a global.css file in static/css and linked it in base.html:
     <div class="text-center mt-4">
       <p class="text-sm text-black">
         Don't have an account yet?
-        <a href="{% url 'main:register' %}" class="font-medium text-indigo-200 hover:text-indigo-300">
+        <a href="{% url 'main:register' %}" class="font-medium text-orange-200 hover:text-orange-300">
           Register Now
         </a>
       </p>
@@ -434,7 +434,7 @@ Create a global.css file in static/css and linked it in base.html:
       </div>
 
       <div>
-        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
           Register
         </button>
       </div>
@@ -453,7 +453,7 @@ Create a global.css file in static/css and linked it in base.html:
     <div class="text-center mt-4">
       <p class="text-sm text-black">
         Already have an account?
-        <a href="{% url 'main:login' %}" class="font-medium text-indigo-200 hover:text-indigo-300">
+        <a href="{% url 'main:login' %}" class="font-medium text-orange-200 hover:text-orange-300">
           Login here
         </a>
       </p>
@@ -498,7 +498,7 @@ Create a global.css file in static/css and linked it in base.html:
           </div>
         {% endfor %}
         <div class="flex justify-center mt-6">
-          <button type="submit" class="bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300 ease-in-out w-full">
+          <button type="submit" class="bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-700 transition duration-300 ease-in-out w-full">
             Create Product Entry
           </button>
         </div>
@@ -544,7 +544,7 @@ Create a global.css file in static/css and linked it in base.html:
               </div>
           {% endfor %}
           <div class="flex justify-center mt-6">
-              <button type="submit" class="bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300 ease-in-out w-full">
+              <button type="submit" class="bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-700 transition duration-300 ease-in-out w-full">
                   Edit Mood Entry
               </button>
           </div>
@@ -559,7 +559,7 @@ Customize the product list page to be more attractive and responsive. Then, cons
 
 Create a card_info.html file in the main/templates directory, then add the following HTML code:
 ```
-<div class="bg-indigo-700 rounded-xl overflow-hidden border-2 border-indigo-800">
+<div class="bg-orange-700 rounded-xl overflow-hidden border-2 border-orange-800">
   <div class="p-4 animate-shine">
     <h5 class="text-lg font-semibold text-gray-200">{{ title }}</h5>
     <p class="text-white">{{ value }}</p>
@@ -584,8 +584,8 @@ INSTALLED_APPS = [
     <div class="w-[3rem] h-8 bg-gray-200 rounded-md opacity-80 -rotate-90"></div>
     <div class="w-[3rem] h-8 bg-gray-200 rounded-md opacity-80 -rotate-90"></div>
   </div>
-  <div class="relative top-5 bg-indigo-100 shadow-md rounded-lg mb-6 break-inside-avoid flex flex-col border-2 border-indigo-300 transform rotate-1 hover:rotate-0 transition-transform duration-300">
-    <div class="bg-indigo-200 text-gray-800 p-4 rounded-t-lg border-b-2 border-indigo-300">
+  <div class="relative top-5 bg-orange-100 shadow-md rounded-lg mb-6 break-inside-avoid flex flex-col border-2 border-orange-300 transform rotate-1 hover:rotate-0 transition-transform duration-300">
+    <div class="bg-orange-200 text-gray-800 p-4 rounded-t-lg border-b-2 border-orange-300">
       <h3 class="font-bold text-xl mb-2">{{product_entry.name}}</h3>
       <p class="text-gray-600">{{product_entry.time}}</p>
     </div>
@@ -599,7 +599,7 @@ INSTALLED_APPS = [
         <div class="relative pt-1">
           <div class="flex mb-2 items-center justify-between">
             <div>
-              <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-600 bg-indigo-200">
+              <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-orange-600 bg-orange-200">
                 Rp {{ product_entry.price|floatformat:2|intcomma }}
               </span>
             </div>
@@ -645,21 +645,21 @@ I added an image named no-products.png to the static/image directory.
       {% include "card_info.html" with title='Class' value=class %}
     </div>
     <div class="w-full px-6  absolute top-[44px] left-0 z-20 hidden md:flex">
-      <div class="w-full min-h-4 bg-indigo-700">
+      <div class="w-full min-h-4 bg-orange-700">
       </div>
     </div>
     <div class="h-full w-full py-6  absolute top-0 left-0 z-20 md:hidden flex ">
-      <div class="h-full min-w-4 bg-indigo-700 mx-auto">
+      <div class="h-full min-w-4 bg-orange-700 mx-auto">
       </div>
     </div>
 </div>
     <div class="px-3 mb-4">
-      <div class="flex rounded-md items-center bg-indigo-600 py-2 px-4 w-fit">
+      <div class="flex rounded-md items-center bg-orange-600 py-2 px-4 w-fit">
         <h1 class="text-white text-center">Last Login: {{last_login}}</h1>
       </div>
     </div>
     <div class="flex justify-end mb-6">
-        <a href="{% url 'main:create_product_entry' %}" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+        <a href="{% url 'main:create_product_entry' %}" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
             Add New Product Entry
         </a>
     </div>
@@ -724,9 +724,9 @@ In card_product.html:
     <div class="w-[3rem] h-8 bg-gray-200 rounded-md opacity-80 -rotate-90"></div>
   </div>
   <!-- Card container -->
-  <div class="relative top-5 bg-indigo-100 shadow-md rounded-lg mb-6 break-inside-avoid flex flex-col border-2 border-indigo-300 transform rotate-1 hover:rotate-0 transition-transform duration-300">
+  <div class="relative top-5 bg-orange-100 shadow-md rounded-lg mb-6 break-inside-avoid flex flex-col border-2 border-orange-300 transform rotate-1 hover:rotate-0 transition-transform duration-300">
     <!-- Card header -->
-    <div class="bg-indigo-200 text-gray-800 p-4 rounded-t-lg border-b-2 border-indigo-300">
+    <div class="bg-orange-200 text-gray-800 p-4 rounded-t-lg border-b-2 border-orange-300">
       <h3 class="font-bold text-xl mb-2">{{product_entry.name}}</h3>
       <p class="text-gray-600">{{product_entry.time}}</p>
     </div>
@@ -741,7 +741,7 @@ In card_product.html:
         <div class="relative pt-1">
           <div class="flex mb-2 items-center justify-between">
             <div>
-              <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-600 bg-indigo-200">
+              <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-orange-600 bg-orange-200">
                 Rp {{ product_entry.price|floatformat:2|intcomma }}
               </span>
             </div>
@@ -776,6 +776,76 @@ In card_product.html:
     </svg>
   </a>
 </div>
+```
+
+Create a navigation bar (navbar) for the features in the application that is responsive to different device sizes, especially mobile and desktop.
+=
+
+```
+<nav class="bg-orange-600 shadow-lg fixed top-0 left-0 z-40 w-screen">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <div class="flex items-center">
+        <h1 class="text-2xl font-bold text-center text-white">Bonbon's Shop</h1>
+      </div>
+      <div class="hidden md:flex items-center space-x-4">
+        <a href="#" class="text-white hover:text-gray-100">Home</a>
+        <a href="#" class="text-white hover:text-gray-100">Products</a>
+        <a href="#" class="text-white hover:text-gray-100">Categories</a>
+        <a href="#" class="text-white hover:text-gray-100">Cart</a>
+        {% if user.is_authenticated %}
+          <span class="text-white">Welcome, {{ user.username }}</span>
+          <a href="{% url 'main:logout' %}" class="text-center bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+            Logout
+          </a>
+        {% else %}
+          <a href="{% url 'main:login' %}" class="text-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+            Login
+          </a>
+        {% endif %}
+      </div>
+      <!-- Hamburger menu for mobile -->
+      <div class="md:hidden flex items-center">
+        <button class="mobile-menu-button">
+          <svg class="w-6 h-6 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu hidden md:hidden px-4 w-full">
+    <div class="pt-2 pb-3 space-y-1">
+      <a href="#" class="block text-white px-3 py-2 hover:bg-orange-700 rounded">Home</a>
+      <a href="#" class="block text-white px-3 py-2 hover:bg-orange-700 rounded">Products</a>
+      <a href="#" class="block text-white px-3 py-2 hover:bg-orange-700 rounded">Categories</a>
+      <a href="#" class="block text-white px-3 py-2 hover:bg-orange-700 rounded">Cart</a>
+      {% if user.is_authenticated %}
+        <span class="block text-white px-3 py-2">Welcome, {{ user.username }}</span>
+        <a href="{% url 'main:logout' %}" class="block text-center bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          Logout
+        </a>
+      {% else %}
+        <a href="{% url 'main:login' %}" class="block text-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          Login
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- JavaScript to toggle the mobile menu -->
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+</nav>
+
 ```
 
 ==============================================================================================================================================================================================================================================
