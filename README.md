@@ -69,7 +69,7 @@ In the main.html template, we remove the conditional block that directly renders
 {% if not product_entries %}
     <div class="flex flex-col items-center justify-center min-h-[24rem] p-6">
         <img src="{% static 'image/sedih-banget.png' %}" alt="Sad face" class="w-32 h-32 mb-4"/>
-        <p class="text-center text-gray-600 mt-4">No product data on the mental health tracker yet</p>
+        <p class="text-center text-gray-600 mt-4">Oh no! The Bonbon shop has no items to sell.</p>
     </div>
 {% else %}
     <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 w-full">
@@ -116,7 +116,7 @@ Next, we create a function refreshProductEntries to update the product entries o
         htmlString = `
             <div class="flex flex-col items-center justify-center min-h-[24rem] p-6">
                 <img src="{% static 'image/sedih-banget.png' %}" alt="Sad face" class="w-32 h-32 mb-4"/>
-                <p class="text-center text-gray-600 mt-4">No product data on the mental health tracker yet.</p>
+                <p class="text-center text-gray-600 mt-4">Oh no! The Bonbon shop has no items to sell.</p>
             </div>
         `;
     } else {
@@ -334,7 +334,7 @@ Perform asynchronous refresh on the main page to display the latest item list wi
 
 WARNING: Make sure the AJAX GET and POST can be done securely.
 
-Add a new product entry with the value of the mood field as follows. Other fields can be filled in according to your preference.
+Add a new product entry with the value of the product field as follows. Other fields can be filled in according to your preference.
 ```
 <img src=x onerror="alert('XSS!');">
 ```
@@ -374,7 +374,7 @@ class ProductEntryForm(ModelForm):
 
 
 
-After adding strip_tags, remove the data that you have just added and try to add it again. If you get an error on the form that says the mood field cannot be empty, then congratulations, you have added a security hole against XSS! If you do not get an error, check again whether you have followed the steps above.
+After adding strip_tags, remove the data that you have just added and try to add it again. If you get an error on the form that says the product field cannot be empty, then congratulations, you have added a security hole against XSS! If you do not get an error, check again whether you have followed the steps above.
 
 Sanitizing Data with DOMPurify
 
